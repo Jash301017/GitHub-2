@@ -1,0 +1,41 @@
+{
+  "name": "jash301017/star-article-portal",
+  "type": "project",
+  "description": "Laravel article portal practical assessment",
+  "keywords": ["laravel", "articles", "sqlite"],
+  "license": "MIT",
+  "require": {
+    "php": "^8.5",
+    "laravel/framework": "^13.0"
+  },
+  "require-dev": {
+    "fakerphp/faker": "^1.23",
+    "laravel/pint": "^1.24",
+    "phpunit/phpunit": "^12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Database\\Factories\\": "database/factories/",
+      "Database\\Seeders\\": "database/seeders/",
+      "Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "post-autoload-dump": [
+      "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+      "@php artisan package:discover --ansi"
+    ],
+    "test": "@php artisan test"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
