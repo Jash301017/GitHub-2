@@ -1,2 +1,4 @@
-*
-!.gitignore
+*.sqlite
+*.sqlite-journal
+*.sqlite-shm
+*.sqlite-wal
