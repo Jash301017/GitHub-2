@@ -37,7 +37,7 @@ A Laravel 13 article portal built for the PHP practical assessment. It uses SQLi
 - Article detail page
 - JSON endpoint at `GET /api/articles` with eager-loaded category data
 - Article detail JSON endpoint at `GET /api/articles/{article}`
-- Five categories and twenty seeded articles
+- Five categories and twenty-five seeded articles
 - SQLite as the sole database connection
 
 ## Git workflow
