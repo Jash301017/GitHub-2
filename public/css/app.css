@@ -1,0 +1,7 @@
+body { color: #172033; }
+.article-tile { transition: transform .18s ease, box-shadow .18s ease; }
+.article-tile:hover { transform: translateY(-3px); box-shadow: 0 1rem 2rem rgba(25, 45, 80, .10) !important; }
+.article-link { color: #172033; }
+.article-link:hover { color: #0d6efd; }
+.article-detail { max-width: 900px; }
+.article-body { font-size: 1.08rem; line-height: 1.9; white-space: normal; color: #354052; }
